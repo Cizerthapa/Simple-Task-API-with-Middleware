@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 // Use the router for user routes
-app.use('/tasks', router);
+app.use('/tasksn', router);
 
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
